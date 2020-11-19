@@ -1,5 +1,6 @@
 //uc1 pincode validation for  6 digit number
 //uc2 it wont allow special character at the beigining 
+//uc3 it wont allow spl chaarcter at the end
 let pincodeRegex=RegExp("[0-9]{6}");
 function PincodeValidation(pincode)
 {
